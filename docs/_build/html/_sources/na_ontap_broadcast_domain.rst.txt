@@ -12,6 +12,7 @@ Modify an ONTAP broacast domain.
 Requirements
 ============
 The below requirements are needed on the host that executes this module.
+
 * A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
 * Ansible 2.4
 * netapp-lib (2017.10.30). Install using 'pip install netapp-lib'
@@ -45,7 +46,9 @@ Parameters
 |                  |                     | separated.                               |
 +------------------+---------------------+------------------------------------------+
 | state            | Choices:            | Whether the specified broadcast domain   |
-|                  | * present (default) | should exist or not.                     |
+|                  |                     | should exist or not.                     |
+|                  | * present (default) |                                          |
+|                  | * absent            |                                          |
 +------------------+---------------------+------------------------------------------+
 | username         |                     | This can be a Cluster-scoped or          |
 | (required)       |                     | SVM-scoped account, depending on whether |
