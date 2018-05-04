@@ -135,59 +135,50 @@ read the documentation
 </table>
 <p>Notes</p>
 <p>The modules prefixed with na_ontap are built to support the ONTAP storage platform.
-Examples</p>
-<ul>
-<li><p class="first">name: Create Aggregates
-na_ontap_aggregate:</p>
-<blockquote>
-<div><p>state: present
-service_state: online
-name: ansibleAggr
-disk_count: 1
-hostname: “{{ netapp_hostname }}”
-username: “{{ netapp_username }}”
-password: “{{ netapp_password }}”</p>
-</div></blockquote>
-</li>
-<li><p class="first">name: Manage Aggregates
-na_ontap_aggregate:</p>
-<blockquote>
-<div><p>state: present
-service_state: offline
-unmount_volumes: true
-name: ansibleAggr
-disk_count: 1
-hostname: “{{ netapp_hostname }}”
-username: “{{ netapp_username }}”
-password: “{{ netapp_password }}”</p>
-</div></blockquote>
-</li>
-<li><p class="first">name: Rename Aggregates
-na_ontap_aggregate:</p>
-<blockquote>
-<div><p>state: present
-service_state: online
-name: ansibleAggr
-rename: ansibleAggr2
-disk_count: 1
-hostname: “{{ netapp_hostname }}”
-username: “{{ netapp_username }}”
-password: “{{ netapp_password }}”</p>
-</div></blockquote>
-</li>
-<li><p class="first">name: Delete Aggregates
-na_ontap_aggregate:</p>
-<blockquote>
-<div><p>state: absent
-service_state: offline
-unmount_volumes: true
-name: ansibleAggr
-hostname: “{{ netapp_hostname }}”
-username: “{{ netapp_username }}”
-password: “{{ netapp_password }}”</p>
-</div></blockquote>
-</li>
-</ul>
+Examples:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Create</span> <span class="n">Aggregates</span>
+  <span class="n">na_ontap_aggregate</span><span class="p">:</span>
+    <span class="n">state</span><span class="p">:</span> <span class="n">present</span>
+    <span class="n">service_state</span><span class="p">:</span> <span class="n">online</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">ansibleAggr</span>
+    <span class="n">disk_count</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="n">hostname</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_hostname }}&quot;</span>
+    <span class="n">username</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_username }}&quot;</span>
+    <span class="n">password</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_password }}&quot;</span>
+
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Manage</span> <span class="n">Aggregates</span>
+  <span class="n">na_ontap_aggregate</span><span class="p">:</span>
+    <span class="n">state</span><span class="p">:</span> <span class="n">present</span>
+    <span class="n">service_state</span><span class="p">:</span> <span class="n">offline</span>
+    <span class="n">unmount_volumes</span><span class="p">:</span> <span class="n">true</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">ansibleAggr</span>
+    <span class="n">disk_count</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="n">hostname</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_hostname }}&quot;</span>
+    <span class="n">username</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_username }}&quot;</span>
+    <span class="n">password</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_password }}&quot;</span>
+
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Rename</span> <span class="n">Aggregates</span>
+  <span class="n">na_ontap_aggregate</span><span class="p">:</span>
+    <span class="n">state</span><span class="p">:</span> <span class="n">present</span>
+    <span class="n">service_state</span><span class="p">:</span> <span class="n">online</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">ansibleAggr</span>
+    <span class="n">rename</span><span class="p">:</span> <span class="n">ansibleAggr2</span>
+    <span class="n">disk_count</span><span class="p">:</span> <span class="mi">1</span>
+    <span class="n">hostname</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_hostname }}&quot;</span>
+    <span class="n">username</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_username }}&quot;</span>
+    <span class="n">password</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_password }}&quot;</span>
+
+<span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Delete</span> <span class="n">Aggregates</span>
+  <span class="n">na_ontap_aggregate</span><span class="p">:</span>
+    <span class="n">state</span><span class="p">:</span> <span class="n">absent</span>
+    <span class="n">service_state</span><span class="p">:</span> <span class="n">offline</span>
+    <span class="n">unmount_volumes</span><span class="p">:</span> <span class="n">true</span>
+    <span class="n">name</span><span class="p">:</span> <span class="n">ansibleAggr</span>
+    <span class="n">hostname</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_hostname }}&quot;</span>
+    <span class="n">username</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_username }}&quot;</span>
+    <span class="n">password</span><span class="p">:</span> <span class="s2">&quot;{{ netapp_password }}&quot;</span>
+</pre></div>
+</div>
 </div>
 
 

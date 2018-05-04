@@ -74,47 +74,47 @@ Parameters
 Notes
 
 The modules prefixed with na_ontap are built to support the ONTAP storage platform.
-Examples
+Examples::
 
-- name: Create Aggregates
-  na_ontap_aggregate:
-    state: present
-    service_state: online
-    name: ansibleAggr
-    disk_count: 1
-    hostname: "{{ netapp_hostname }}"
-    username: "{{ netapp_username }}"
-    password: "{{ netapp_password }}"
+ - name: Create Aggregates
+   na_ontap_aggregate:
+     state: present
+     service_state: online
+     name: ansibleAggr
+     disk_count: 1
+     hostname: "{{ netapp_hostname }}"
+     username: "{{ netapp_username }}"
+     password: "{{ netapp_password }}"
 
-- name: Manage Aggregates
-  na_ontap_aggregate:
-    state: present
-    service_state: offline
-    unmount_volumes: true
-    name: ansibleAggr
-    disk_count: 1
-    hostname: "{{ netapp_hostname }}"
-    username: "{{ netapp_username }}"
-    password: "{{ netapp_password }}"
+ - name: Manage Aggregates
+   na_ontap_aggregate:
+     state: present
+     service_state: offline
+     unmount_volumes: true
+     name: ansibleAggr
+     disk_count: 1
+     hostname: "{{ netapp_hostname }}"
+     username: "{{ netapp_username }}"
+     password: "{{ netapp_password }}"
 
-- name: Rename Aggregates
-  na_ontap_aggregate:
-    state: present
-    service_state: online
-    name: ansibleAggr
-    rename: ansibleAggr2
-    disk_count: 1
-    hostname: "{{ netapp_hostname }}"
-    username: "{{ netapp_username }}"
-    password: "{{ netapp_password }}"
+ - name: Rename Aggregates
+   na_ontap_aggregate:
+     state: present
+     service_state: online
+     name: ansibleAggr
+     rename: ansibleAggr2
+     disk_count: 1
+     hostname: "{{ netapp_hostname }}"
+     username: "{{ netapp_username }}"
+     password: "{{ netapp_password }}"
 
-- name: Delete Aggregates
-  na_ontap_aggregate:
-    state: absent
-    service_state: offline
-    unmount_volumes: true
-    name: ansibleAggr
-    hostname: "{{ netapp_hostname }}"
-    username: "{{ netapp_username }}"
-    password: "{{ netapp_password }}"
+ - name: Delete Aggregates
+   na_ontap_aggregate:
+     state: absent
+     service_state: offline
+     unmount_volumes: true
+     name: ansibleAggr
+     hostname: "{{ netapp_hostname }}"
+     username: "{{ netapp_username }}"
+     password: "{{ netapp_password }}"
 
