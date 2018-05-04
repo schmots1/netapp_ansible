@@ -6,7 +6,7 @@ New in version 2.5.
 ========
 Synopsis
 ========
-Create or destroy aggregates on NetApp cDOT.
+Create, join or apply licenses to ONTAP clusters
 
 ============
 Requirements
