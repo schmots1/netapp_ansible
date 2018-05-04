@@ -20,7 +20,7 @@ Available Modules
 * :doc:`na_ontap_broadcast_domain_ports <na_ontap_broadcast_domain_ports>`
 * :doc:`na_ontap_cifs <na_ontap_cifs>`
 * :doc:`na_ontap_cifs_acl <na_ontap_cifs_acl>`
-* na_ontap_cifs_server.py
+* :doc:`na_ontap_cifs_server <na_ontap_cifs_server>`
 * na_ontap_cluster.
 * na_ontap_cluster_ha.py
 * na_ontap_export_policy.py
