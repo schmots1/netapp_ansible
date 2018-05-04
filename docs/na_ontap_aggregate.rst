@@ -12,6 +12,7 @@ Create or destroy aggregates on NetApp cDOT.
 Requirements
 ============
 The below requirements are needed on the host that executes this module.
+
 * A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
 * Ansible 2.4
 * netapp-lib (2017.10.30). Install using ‘pip install netapp-lib’
@@ -49,18 +50,21 @@ Parameters
 |                 |                     | the current name.                        |
 +-----------------+---------------------+------------------------------------------+
 | service_state   | Choices:            | Whether the specified aggregate should be|
-|                 | * online            | enabled or disabled. Creates aggregate if|
-|                 | * offline           | it doesnt exist.                         |
+|                 |                     | enabled or disabled. Creates aggregate if|
+|                 | * online            | it doesn't exist.                        |
+|                 | * offline           |                                          |
 +-----------------+---------------------+------------------------------------------+
 | state           | Choices:            | Whether the specified aggregate should   |
-|                 | * present (default) | exist or not.                            |
+|                 |                     | exist or not.                            |
+|                 | * present (default) |                                          |
+|                 | * absent            |                                          |
 +-----------------+---------------------+------------------------------------------+
 | unmount_volumes | Choices:            | If set to "TRUE", this option specifies  |
-|                 | * true              | that all of the volumes hosted by the    |
-|                 | * false             | given aggregate are to be unmounted      |
-|                 |                     | before the offline operation is executed.|
-|                 |                     | By default, the system will reject any   | 
-|                 |                     | attempt to offline an aggregate that     |
+|                 |                     | that all of the volumes hosted by the    |
+|                 | * true              | given aggregate are to be unmounted      |
+|                 | * false             | before the offline operation is executed.|
+|                 |                     | By default, the system will reject any   |
+|                 |                     | attempt to offline an aggregate that     | 
 |                 |                     | hosts one or more online volumes.        |
 +-----------------+---------------------+------------------------------------------+
 | username        |                     | This can be a Cluster-scoped or          |

@@ -39,10 +39,12 @@
 </div>
 <div class="section" id="requirements">
 <h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
-<p>The below requirements are needed on the host that executes this module.
-* A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
-* Ansible 2.4
-* netapp-lib (2017.10.30). Install using ‘pip install netapp-lib’</p>
+<p>The below requirements are needed on the host that executes this module.</p>
+<ul class="simple">
+<li>A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3</li>
+<li>Ansible 2.4</li>
+<li>netapp-lib (2017.10.30). Install using ‘pip install netapp-lib’</li>
+</ul>
 </div>
 <div class="section" id="parameters">
 <h1>Parameters<a class="headerlink" href="#parameters" title="Permalink to this headline">¶</a></h1>
@@ -96,23 +98,33 @@ instance.</td>
 the current name.</td>
 </tr>
 <tr class="row-even"><td>service_state</td>
-<td>Choices:
-* online
-* offline</td>
+<td><p class="first">Choices:</p>
+<ul class="last simple">
+<li>online</li>
+<li>offline</li>
+</ul>
+</td>
 <td>Whether the specified aggregate should be
 enabled or disabled. Creates aggregate if
-it doesnt exist.</td>
+it doesn’t exist.</td>
 </tr>
 <tr class="row-odd"><td>state</td>
-<td>Choices:
-* present (default)</td>
+<td><p class="first">Choices:</p>
+<ul class="last simple">
+<li>present (default)</li>
+<li>absent</li>
+</ul>
+</td>
 <td>Whether the specified aggregate should
 exist or not.</td>
 </tr>
 <tr class="row-even"><td>unmount_volumes</td>
-<td>Choices:
-* true
-* false</td>
+<td><p class="first">Choices:</p>
+<ul class="last simple">
+<li>true</li>
+<li>false</li>
+</ul>
+</td>
 <td>If set to “TRUE”, this option specifies
 that all of the volumes hosted by the
 given aggregate are to be unmounted
