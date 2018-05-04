@@ -23,7 +23,7 @@ Available Modules
 * :doc:`na_ontap_cifs_server <na_ontap_cifs_server>`
 * :doc:`na_ontap_cluster <na_ontap_cluster>`
 * :doc:`na_ontap_cluster_ha <na_ontap_cluster_ha>`
-* na_ontap_export_policy.py
+* :doc:`na_ontap_export_policy <na_ontap_export_policy>`
 * na_ontap_export_policy_rule.py
 * na_ontap_igroup.py
 * na_ontap_interface.py
