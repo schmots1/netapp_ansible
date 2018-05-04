@@ -15,7 +15,7 @@ Welcome to netapp_ansible's documentation!
 Available Modules
 ==================
 
-* na_ontap_aggregate.py
+* :doc:`na_ontap_aggregate`  na_ontap_aggregate.py
 * na_ontap_broadcast_domain.py
 * na_ontap_broadcast_domain_ports.py
 * na_ontap_cifs.py
