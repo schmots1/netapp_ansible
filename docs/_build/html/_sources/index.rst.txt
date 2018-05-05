@@ -46,6 +46,6 @@ Available Modules
 * :doc:`na_ontap_ucadapter <na_ontap_ucadapter>`
 * :doc:`na_ontap_user <na_ontap_user>`
 * :doc:`na_ontap_user_role <na_ontap_user_role>`
-* na_ontap_volume.py
+* :doc:`na_ontap_volume <na_ontap_volume>`
 * na_ontap_volume_clone.py
 
