@@ -34,7 +34,7 @@ Available Modules
 * :doc:`na_ontap_lun_map <na_ontap_lun_map>`
 * :doc:`na_ontap_net_ifgrp <na_ontap_net_ifgrp>`
 * :doc:`na_ontap_net_port <na_ontap_net_port>`
-* na_ontap_net_routes.py
+* :doc:`na_ontap_net_routes <na_ontap_net_routes>`
 * na_ontap_net_vlan.py
 * na_ontap_nfs.py
 * na_ontap_ntp.py
