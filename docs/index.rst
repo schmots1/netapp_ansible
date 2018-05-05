@@ -41,7 +41,7 @@ Available Modules
 * :doc:`na_ontap_qtree <na_ontap_qtree>`
 * :doc:`na_ontap_service_processor_network <na_ontap_service_processor_network>`
 * :doc:`na_ontap_snapshot <na_ontap_snapshot>`
-* na_ontap_snmp.py
+* :doc:`na_ontap_snmp <na_ontap_snmp>`
 * na_ontap_svm.py
 * na_ontap_ucadapter.py
 * na_ontap_user.py
