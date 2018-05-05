@@ -44,7 +44,7 @@ Available Modules
 * :doc:`na_ontap_snmp <na_ontap_snmp>`
 * :doc:`na_ontap_svm <na_ontap_svm>`
 * :doc:`na_ontap_ucadapter <na_ontap_ucadapter>`
-* na_ontap_user.py
+* :doc:`na_ontap_user <na_ontap_user>`
 * na_ontap_user_role.py
 * na_ontap_volume.py
 * na_ontap_volume_clone.py
