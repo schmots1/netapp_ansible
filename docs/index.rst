@@ -42,7 +42,7 @@ Available Modules
 * :doc:`na_ontap_service_processor_network <na_ontap_service_processor_network>`
 * :doc:`na_ontap_snapshot <na_ontap_snapshot>`
 * :doc:`na_ontap_snmp <na_ontap_snmp>`
-* na_ontap_svm.py
+* :doc:`na_ontap_svm <na_ontap_svm>`
 * na_ontap_ucadapter.py
 * na_ontap_user.py
 * na_ontap_user_role.py
