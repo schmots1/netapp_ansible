@@ -31,7 +31,7 @@ Parameters
 | hostname           |                     | The hostname or IP address of the ONTAP  |
 | (required)         |                     | instance.                                |
 +--------------------+---------------------+------------------------------------------+
-| https              | Default: no         | Enable and disable https                 |
+| https              | Default: false      | Enable and disable https                 |
 +--------------------+---------------------+------------------------------------------+
 | license_code       |                     | License code to be applied to the cluster|
 +--------------------+---------------------+------------------------------------------+

@@ -30,7 +30,7 @@ Parameters
 | hostname         |                     | The hostname or IP address of the ONTAP  |
 | (required)       |                     | instance.                                |
 +------------------+---------------------+------------------------------------------+
-| https            | Default: no         | Enable and disable https                 |
+| https            | Default: false      | Enable and disable https                 |
 +------------------+---------------------+------------------------------------------+
 | ipspace          |                     | Specify the required ipspace for the     |
 |                  |                     | broadcast domain                         |
