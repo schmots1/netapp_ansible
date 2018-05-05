@@ -47,5 +47,5 @@ Available Modules
 * :doc:`na_ontap_user <na_ontap_user>`
 * :doc:`na_ontap_user_role <na_ontap_user_role>`
 * :doc:`na_ontap_volume <na_ontap_volume>`
-* na_ontap_volume_clone.py
+* :doc:`na_ontap_volume_clone <na_ontap_volume_clone>`
 
