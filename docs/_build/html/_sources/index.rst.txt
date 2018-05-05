@@ -28,7 +28,7 @@ Available Modules
 * :doc:`na_ontap_igroup <na_ontap_igroup>`
 * :doc:`na_ontap_interface <na_ontap_interface>`
 * :doc:`na_ontap_iscsi <na_ontap_iscsi>`
-* na_ontap_job_schedule.py
+* :doc:`na_ontap_job_schedule <na_ontap_job_schedule>`
 * na_ontap_license.py
 * na_ontap_lun.py
 * na_ontap_lun_map.py
