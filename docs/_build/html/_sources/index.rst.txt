@@ -24,7 +24,7 @@ Available Modules
 * :doc:`na_ontap_cluster <na_ontap_cluster>`
 * :doc:`na_ontap_cluster_ha <na_ontap_cluster_ha>`
 * :doc:`na_ontap_export_policy <na_ontap_export_policy>`
-* na_ontap_export_policy_rule.py
+* :doc:`na_ontap_export_policy_rule <na_ontap_export_policy_rule>`
 * na_ontap_igroup.py
 * na_ontap_interface.py
 * na_ontap_iscsi.py
