@@ -37,7 +37,7 @@ Available Modules
 * :doc:`na_ontap_net_routes <na_ontap_net_routes>`
 * :doc:`na_ontap_net_vlan <na_ontap_net_vlan>`
 * :doc:`na_ontap_nfs <na_ontap_nfs>`
-* na_ontap_ntp.py
+* :doc:`na_ontap_ntp <na_ontap_ntp>`
 * na_ontap_qtree.py
 * na_ontap_service_processor_network.py
 * na_ontap_snapshot.py
