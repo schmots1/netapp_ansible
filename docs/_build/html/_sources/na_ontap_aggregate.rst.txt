@@ -15,7 +15,7 @@ The below requirements are needed on the host that executes this module.
 
 * A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
 * Ansible 2.4
-* netapp-lib (2017.10.30). Install using ‘pip install netapp-lib’
+* netapp-lib (2017.10.30). Install using 'pip install netapp-lib'
 
 ==========
 Parameters
