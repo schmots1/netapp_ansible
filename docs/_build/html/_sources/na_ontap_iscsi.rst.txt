@@ -37,8 +37,8 @@ Parameters
 |                 | * started           |                                          |
 |                 | * stopped           |                                          |
 +-----------------+---------------------+------------------------------------------+
-| state           | Choices:            | Whether the specified aggregate should   |
-|                 |                     | exist or not.                            |
+| state           | Choices:            | Whether the iscsi service should exist or|
+|                 |                     | not.                                     |
 |                 | * present (default) |                                          |
 |                 | * absent            |                                          |
 +-----------------+---------------------+------------------------------------------+
