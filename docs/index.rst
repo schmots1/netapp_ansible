@@ -30,8 +30,8 @@ Available Modules
 * :doc:`na_ontap_iscsi <na_ontap_iscsi>`
 * :doc:`na_ontap_job_schedule <na_ontap_job_schedule>`
 * :doc:`na_ontap_license <na_ontap_license>`
-* na_ontap_lun.py
-* na_ontap_lun_map.py
+* :doc:`na_ontap_lun <na_ontap_lun>`
+* :doc:`na_ontap_lun_map <na_ontap_lun_map>`
 * na_ontap_net_ifgrp.py
 * na_ontap_net_port.py
 * na_ontap_net_routes.py
