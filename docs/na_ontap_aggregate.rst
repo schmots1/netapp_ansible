@@ -59,6 +59,9 @@ Parameters
 |                 | * present (default) |                                          |
 |                 | * absent            |                                          |
 +-----------------+---------------------+------------------------------------------+
+| nodes           |                     | Node that aggregate should be created on |
+|                 |                     | or Nodes it should stripe across.        |
++-----------------+---------------------+------------------------------------------+
 | unmount_volumes | Choices:            | If set to "TRUE", this option specifies  |
 |                 |                     | that all of the volumes hosted by the    |
 |                 | * true              | given aggregate are to be unmounted      |
