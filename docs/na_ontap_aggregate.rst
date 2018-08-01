@@ -1,20 +1,20 @@
 ====================================================
-na_ontap_aggregate - Manage NetApp Ontap aggregates.
+na_ontap_aggregate - Manage NetApp ONTAP aggregates.
 ====================================================
-New in version 2.5.
+New in version 2.6
 
 ========
 Synopsis
 ========
-Create or destroy aggregates on NetApp cDOT.
+Create or destroy aggregates on NetApp ONTAP.
 
 ============
 Requirements
 ============
 The below requirements are needed on the host that executes this module.
 
-* A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
-* Ansible 2.4
+* An ONTAP9 system. The modules were developed with ONTAP 9.3
+* Ansible 2.4 or higher
 * netapp-lib (2017.10.30). Install using 'pip install netapp-lib'
 
 ==========
