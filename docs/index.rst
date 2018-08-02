@@ -15,7 +15,7 @@ Welcome to netapp_ansible's documentation!
 Available Modules
 ==================
 
-* :doc:`na_ontap_aggregate <na_ontap_aggregate>`
+* :doc:`ontap/na_ontap_aggregate <na_ontap_aggregate>`
 * :doc:`na_ontap_broadcast_domain <na_ontap_broadcast_domain>`
 * :doc:`na_ontap_broadcast_domain_ports <na_ontap_broadcast_domain_ports>`
 * :doc:`na_ontap_cifs <na_ontap_cifs>`
