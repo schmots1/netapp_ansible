@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to netapp_ansible's documentation!
+NetApp Ansible Modules Documentation
 ==========================================
 
 .. toctree::
@@ -15,7 +15,7 @@ Welcome to netapp_ansible's documentation!
 Available Modules
 ==================
 
-* :doc:`ontap/na_ontap_aggregate <na_ontap_aggregate>`
+* :doc:`na_ontap_aggregate <ontap/na_ontap_aggregate>`
 * :doc:`na_ontap_broadcast_domain <na_ontap_broadcast_domain>`
 * :doc:`na_ontap_broadcast_domain_ports <na_ontap_broadcast_domain_ports>`
 * :doc:`na_ontap_cifs <na_ontap_cifs>`
