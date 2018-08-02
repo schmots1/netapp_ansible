@@ -13,8 +13,8 @@ Requirements
 ============
 The below requirements are needed on the host that executes this module.
 
-* A Data ONTAP system. The modules were developed with Clustered Data ONTAP 9.3
-* Ansible 2.4
+* An ONTAP 9 system. The modules were developed with ONTAP 9.3
+* Ansible 2.4 or higher
 * netapp-lib (2017.10.30). Install using 'pip install netapp-lib'
 
 ==========
@@ -29,9 +29,11 @@ Parameters
 +-----------------+---------------------+------------------------------------------+
 | https           | Default: false      | Enable and disable https                 |
 +-----------------+---------------------+------------------------------------------+
-| licenses        |                     | List of licenses to add or remove. Please|
+| licenses        |                     | List of licenses to remove. Please       |
 |                 |                     | note that trying to remove a non-existant|
 |                 |                     | license will throw an error.             |
++-----------------+---------------------+------------------------------------------+
+| license_codes   |                     | List of license codes to add             |
 +-----------------+---------------------+------------------------------------------+
 | fcp             |                     | FCP License                              |
 +-----------------+---------------------+------------------------------------------+
@@ -100,13 +102,7 @@ Examples::
      username: "{{ netapp_username }}"
      password: "{{ netapp_password }}"
      serial_number: #################
-     licenses:
-       nfs: #################
-       cifs: #################
-       iscsi: #################
-       fcp: #################
-       snaprestore: #################
-       flexclone: #################
+     license_codes: #################,#################,#################,#################
 
  - name: Remove licenses
    na_ontap_license:
