@@ -8,7 +8,6 @@ NetApp Ansible Modules Documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
    ontap
 
 
