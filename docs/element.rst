@@ -9,3 +9,5 @@ Element Software Modules
 * :doc:`na_elementsw_check_connections <element/na_elementsw_check_connections>`
 * :doc:`na_elementsw_cluster <element/na_elementsw_cluster>`
 * :doc:`na_elementsw_cluster_pair <element/na_elementsw_cluster_pair>`
+* :doc:`na_elementsw_drive <element/na_elementsw_drive>`
+* :doc:`na_elementsw_ldap <element/na_elementsw_ldap>`
