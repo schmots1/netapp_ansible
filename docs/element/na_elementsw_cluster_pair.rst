@@ -24,8 +24,10 @@ Parameters
 +----------------------+---------------------+------------------------------------------+
 |     Parameter        |   Choices/Defaults  |                 Comments                 |
 +----------------------+---------------------+------------------------------------------+
-| state                |                     | Whether the specified access group       |
+| state                | Choices:            | Whether the specified cluster pair       |
 |                      |                     | should exist or not                      |
+|                      | * present           |                                          |
+|                      | * absent            |                                          |
 +----------------------+---------------------+------------------------------------------+
 | hostname             |                     | The hostname or IP address of the        |
 | (required)           |                     | cluster mvip.                            |

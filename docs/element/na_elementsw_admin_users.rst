@@ -24,8 +24,10 @@ Parameters
 +----------------------+---------------------+------------------------------------------+
 |     Parameter        |   Choices/Defaults  |                 Comments                 |
 +----------------------+---------------------+------------------------------------------+
-| state                |                     | Whether the specified access group       |
-|                      |                     | should exist or not                      |
+| state                | Choices:            | Whether the specified admin user should  |
+|                      |                     | exist or not                             |
+|                      | * present           |                                          |
+|                      | * absent            |                                          |
 +----------------------+---------------------+------------------------------------------+
 | hostname             |                     | The hostname or IP address of the        |
 | (required)           |                     | cluster mvip.                            |
