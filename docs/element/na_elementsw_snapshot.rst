@@ -21,7 +21,7 @@ The below requirements are needed on the host that executes this module.
 Parameters
 ==========
 
-+----------------------+---------------------+------------------------------------------+
++---------------------------+---------------------+------------------------------------------+
 |        Parameter          |   Choices/Defaults  |                 Comments                 |
 +---------------------------+---------------------+------------------------------------------+
 | state                     | Choices:            | Whether the specified snapshot should    |

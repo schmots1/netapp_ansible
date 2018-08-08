@@ -24,8 +24,8 @@ Parameters
 +----------------------+---------------------+------------------------------------------+
 |     Parameter        |   Choices/Defaults  |                 Comments                 |
 +----------------------+---------------------+------------------------------------------+
-| state                | Choices:            | Whether the specified account should     |
-|                      |                     | exist or not.                            |
+| state                | Choices:            | Whether the specified vlan should exist  |
+|                      |                     | or not.                                  |
 |                      | * present           |                                          |
 |                      | * absent            |                                          |
 +----------------------+---------------------+------------------------------------------+

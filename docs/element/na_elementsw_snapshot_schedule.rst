@@ -24,7 +24,7 @@ Parameters
 +-------------------------+-------------------------+------------------------------------------+
 |       Parameter         |     Choices/Defaults    |                 Comments                 |
 +-------------------------+-------------------------+------------------------------------------+
-| state                   | Choices:                | Whether the specified account should     |
+| state                   | Choices:                | Whether the specified schedule should    |
 |                         |                         | exist or not.                            |
 |                         | * present               |                                          |
 |                         | * absent                |                                          |
