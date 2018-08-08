@@ -18,3 +18,4 @@ Element Software Modules
 * :doc:`na_elementsw_vlan <element/na_elementsw_vlan>`
 * :doc:`na_elementsw_volume <element/na_elementsw_volume>`
 * :doc:`na_elementsw_volume_clone <element/na_elementsw_volume_clone>`
+* :doc:`na_elementsw_volume_pair <element/na_elementsw_volume_pair>`
