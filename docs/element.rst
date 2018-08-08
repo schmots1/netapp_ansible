@@ -15,3 +15,4 @@ Element Software Modules
 * :doc:`na_elementsw_snapshot <element/na_elementsw_snapshot>`
 * :doc:`na_elementsw_snapshot_restore <element/na_elementsw_snapshot_restore>`
 * :doc:`na_elementsw_snapshot_schedule <element/na_elementsw_snapshot_schedule>`
+* :doc:`na_elementsw_vlan <element/na_elementsw_vlan>`
