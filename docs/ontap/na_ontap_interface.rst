@@ -1,5 +1,5 @@
 ============================================
-na_ontap_nterface - ONTAP LIF configuration.
+na_ontap_interface - ONTAP LIF configuration.
 ============================================
 New in version 2.5.
 
