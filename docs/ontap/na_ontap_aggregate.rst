@@ -24,6 +24,31 @@ Parameters
 +-----------------+---------------------+------------------------------------------+
 |   Parameter     |   Choices/Defaults  |                 Comments                 |
 +-----------------+---------------------+------------------------------------------+
+| state           | Choices:            | Whether the specified aggregate should   |
+|                 |                     | exist or not.                            |
+|                 | * present (default) |                                          |
+|                 | * absent            |                                          |
++-----------------+---------------------+------------------------------------------+
+| hostname        |                     | The hostname or IP address of the ONTAP  |
+| (required)      |                     | instance.                                |
++-----------------+---------------------+------------------------------------------+
+| username        |                     | This can be a Cluster-scoped or          |
+| (required)      |                     | SVM-scoped account, depending on whether |
+|                 |                     | a Cluster-level or SVM-level API is      |
+|                 |                     | required. For more information, please   |
+|                 |                     | read the documentation                   |
+|                 |                     | https://goo.gl/BRu78Z.                   |
++-----------------+---------------------+------------------------------------------+
+| password        |                     | Password for the specified user.         |
+| (required)      |                     |                                          |
++-----------------+---------------------+------------------------------------------+
+| https           | Default: false      | Enable and disable https                 |
++-----------------+---------------------+------------------------------------------+
+| no_cert_verify  | Default: false      | Set to true in order to use self-signed  |
+|                 |                     | certificates with https.  *Warning: this |
+|                 |                     | does open up the small possiblity of a   |
+|                 |                     | man-in-the-middle attack.                |
++-----------------+---------------------+------------------------------------------+
 | disk_count      |                     | Number of disks to place into the        |
 |                 |                     | aggregate, including parity disks.  The  |
 |                 |                     | disks in this newly-created aggregate    |
@@ -35,15 +60,32 @@ Parameters
 |                 |                     | Range [0..2^31-1].  Required when        |
 |                 |                     | state=present.                           |
 +-----------------+---------------------+------------------------------------------+
-| hostname        |                     | The hostname or IP address of the ONTAP  |
-| (required)      |                     | instance.                                |
+| disk_size       |                     | Disk size to use in 4K block size.       |
+|                 |                     | Disks within 10% of specified size will  |
+|                 |                     | be used.                                 |
 +-----------------+---------------------+------------------------------------------+
-| https           | Default: false      | Enable and disable https                 |
+| disk_type       | Choices:            | Type of disk to use to build aggregate.  |
+|                 |                     |                                          |
+|                 | * ATA               |                                          |
+|                 | * BSAS              |                                          |
+|                 | * FCAL              |                                          |
+|                 | * FSAS              |                                          |
+|                 | * LUN               |                                          |
+|                 | * MSATA             |                                          |
+|                 | * SAS               |                                          |
+|                 | * SSD               |                                          |
+|                 | * VMDISK            |                                          |
++-----------------+---------------------+------------------------------------------+
+| raid_size       |                     | Sets the maximum number of drives per    |
+|                 |                     | raid group.                              |
++-----------------+---------------------+------------------------------------------+
+| raid_type       |                     | Specifies the type of RAID groups to use |
+|                 |                     | in the new aggregate.                    |
++-----------------+---------------------+------------------------------------------+
+| from_name       |                     | Name of aggregate to be renamed.         |
+|                 |                     |                                          |
 +-----------------+---------------------+------------------------------------------+
 | name            |                     | The name of the aggregate to manage.     |
-| (required)      |                     |                                          |
-+-----------------+---------------------+------------------------------------------+
-| password        |                     | Password for the specified user.         |
 | (required)      |                     |                                          |
 +-----------------+---------------------+------------------------------------------+
 | rename          |                     | The name of the aggregate that replaces  |
@@ -53,11 +95,6 @@ Parameters
 |                 |                     | enabled or disabled. Creates aggregate if|
 |                 | * online            | it doesn't exist.                        |
 |                 | * offline           |                                          |
-+-----------------+---------------------+------------------------------------------+
-| state           | Choices:            | Whether the specified aggregate should   |
-|                 |                     | exist or not.                            |
-|                 | * present (default) |                                          |
-|                 | * absent            |                                          |
 +-----------------+---------------------+------------------------------------------+
 | nodes           |                     | Node that aggregate should be created on |
 |                 |                     | or Nodes it should stripe across.        |
@@ -69,13 +106,6 @@ Parameters
 |                 |                     | By default, the system will reject any   |
 |                 |                     | attempt to offline an aggregate that     | 
 |                 |                     | hosts one or more online volumes.        |
-+-----------------+---------------------+------------------------------------------+
-| username        |                     | This can be a Cluster-scoped or          |
-| (required)      |                     | SVM-scoped account, depending on whether |
-|                 |                     | a Cluster-level or SVM-level API is      |
-|                 |                     | required. For more information, please   |
-|                 |                     | read the documentation                   |
-|                 |                     | https://goo.gl/BRu78Z.                   |
 +-----------------+---------------------+------------------------------------------+
 
 Notes
