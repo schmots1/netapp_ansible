@@ -6,6 +6,7 @@ ONTAP Modules
 * :doc:`na_ontap_autosupport <ontap/na_ontap_autosupport>`
 * :doc:`na_ontap_broadcast_domain <ontap/na_ontap_broadcast_domain>`
 * :doc:`na_ontap_broadcast_domain_ports <ontap/na_ontap_broadcast_domain_ports>`
+* :doc:`na_ontap_cg_snapshot <ontap/na_ontap_cg_snapshot>`
 * :doc:`na_ontap_cifs <ontap/na_ontap_cifs>`
 * :doc:`na_ontap_cifs_acl <ontap/na_ontap_cifs_acl>`
 * :doc:`na_ontap_cifs_server <ontap/na_ontap_cifs_server>`
