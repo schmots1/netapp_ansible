@@ -24,28 +24,13 @@ Parameters
 +------------------+---------------------+------------------------------------------+
 |   Parameter      |   Choices/Defaults  |                 Comments                 |
 +------------------+---------------------+------------------------------------------+
-| broadcast_domain |                     | Specify the broadcast domain name        |
-| (required)       |                     |                                          |
-+------------------+---------------------+------------------------------------------+
-| hostname         |                     | The hostname or IP address of the ONTAP  |
-| (required)       |                     | instance.                                |
-+------------------+---------------------+------------------------------------------+
-| https            | Default: false      | Enable and disable https                 |
-+------------------+---------------------+------------------------------------------+
-| ipspace          |                     | Specify the required ipspace for the     |
-|                  |                     | broadcast domain                         |
-+------------------+---------------------+------------------------------------------+
-| password         |                     | Password for the specified user.         |
-| (required)       |                     |                                          |
-+------------------+---------------------+------------------------------------------+
-| ports            |                     | Specify the ports associated with this   |
-|                  |                     | broadcast domain.  Should be comma       |
-|                  |                     | separated.                               |
-+------------------+---------------------+------------------------------------------+
 | state            | Choices:            | Whether the specified broadcast domain   |
 |                  |                     | should exist or not.                     |
 |                  | * present (default) |                                          |
 |                  | * absent            |                                          |
++------------------+---------------------+------------------------------------------+
+| hostname         |                     | The hostname or IP address of the ONTAP  |
+| (required)       |                     | instance.                                |
 +------------------+---------------------+------------------------------------------+
 | username         |                     | This can be a Cluster-scoped or          |
 | (required)       |                     | SVM-scoped account, depending on whether |
@@ -54,7 +39,25 @@ Parameters
 |                  |                     | read the documentation                   |
 |                  |                     | https://goo.gl/BRu78Z.                   |
 +------------------+---------------------+------------------------------------------+
-| vserver          |                     | The name of the SVM                      |
+| password         |                     | Password for the specified user.         |
+| (required)       |                     |                                          |
++------------------+---------------------+------------------------------------------+
+| https            | Default: false      | Enable and disable https                 |
++------------------+---------------------+------------------------------------------+
+| validate_certs   | Default: true       | Set to false in order to use self-signed |
+|                  |                     | certificates with https.  *Warning: this |
+|                  |                     | does open up the small possiblity of a   |
+|                  |                     | man-in-the-middle attack.                |
++------------------+---------------------+------------------------------------------+
+| broadcast_domain |                     | Specify the broadcast domain name        |
+| (required)       |                     |                                          |
++------------------+---------------------+------------------------------------------+
+| ipspace          |                     | Specify the required ipspace for the     |
+|                  |                     | broadcast domain                         |
++------------------+---------------------+------------------------------------------+
+| ports            |                     | Specify the ports associated with this   |
+|                  |                     | broadcast domain.  Should be comma       |
+|                  |                     | separated.                               |
 +------------------+---------------------+------------------------------------------+
 
 Notes
