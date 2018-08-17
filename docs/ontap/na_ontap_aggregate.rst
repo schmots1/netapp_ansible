@@ -44,7 +44,7 @@ Parameters
 +-----------------+---------------------+------------------------------------------+
 | https           | Default: false      | Enable and disable https                 |
 +-----------------+---------------------+------------------------------------------+
-| no_cert_verify  | Default: false      | Set to true in order to use self-signed  |
+| validate_certs  | Default: true       | Set to false in order to use self-signed |
 |                 |                     | certificates with https.  *Warning: this |
 |                 |                     | does open up the small possiblity of a   |
 |                 |                     | man-in-the-middle attack.                |
