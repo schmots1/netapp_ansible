@@ -1,12 +1,12 @@
 ====================================================
-na_ontap_command - Execute ONTAP CLI Commands
+na_ontap_disks - Manage NetApp ONTAP Disk Assign
 ====================================================
 New in version 2.7
 
 ========
 Synopsis
 ========
-Run system-cli commands on ONTAP
+Assign all disks to nodes.
 
 ============
 Requirements
@@ -23,6 +23,11 @@ Parameters
 
 +-----------------+---------------------+------------------------------------------+
 |   Parameter     |   Choices/Defaults  |                 Comments                 |
++-----------------+---------------------+------------------------------------------+
+| state           | Choices:            | Place holder for disk unassign.          |
+|                 |                     |                                          |
+|                 | * present (default) |                                          |
+|                 | * absent            |                                          |
 +-----------------+---------------------+------------------------------------------+
 | hostname        |                     | The hostname or IP address of the ONTAP  |
 | (required)      |                     | instance.                                |
@@ -44,7 +49,9 @@ Parameters
 |                 |                     | does open up the small possiblity of a   |
 |                 |                     | man-in-the-middle attack.                |
 +-----------------+---------------------+------------------------------------------+
-| command         |                     | Run system-cli commands on ONTAP         |
+| node            |                     | It specifies the node to which           |
+|                 |                     | autoassignment or assignment of all      |
+|                 |                     | unowned disks must be done.              |
 +-----------------+---------------------+------------------------------------------+
 
 Notes
@@ -52,16 +59,10 @@ Notes
 The modules prefixed with na_ontap are built to support the ONTAP storage platform.
 Examples::
 
-- name: run ontap cli command
-      na_ontap_command:
-        hostname: "{{ hostname }} "
-        username: "{{ admin username }}"
-        password: "{{ admin password }}"
-        command: ['version']
-
-    - name: run ontap cli command
-      na_ontap_command:
-        hostname: "{{ hostname }} "
-        username: "{{ admin username }}"
-        password: "{{ admin password }}"
-        command: ['network', 'interface', 'show']
+- name: Assign unowned disks
+  na_ontap_disks:
+    state: present
+    node: cluster-01
+    hostname: "{{ hostname }} "
+    username: "{{ admin username }}"
+    password: "{{ admin password }}"

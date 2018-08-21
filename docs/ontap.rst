@@ -14,6 +14,7 @@ ONTAP Modules
 * :doc:`na_ontap_cluster_peer <ontap/na_ontap_cluster_peer>`
 * :doc:`na_ontap_cluster_ha <ontap/na_ontap_cluster_ha>`
 * :doc:`na_ontap_command <ontap/na_ontap_command>`
+* :doc:`na_ontap_disks <ontap/na_ontap_disks>`
 * :doc:`na_ontap_export_policy <ontap/na_ontap_export_policy>`
 * :doc:`na_ontap_export_policy_rule <ontap/na_ontap_export_policy_rule>`
 * :doc:`na_ontap_igroup <ontap/na_ontap_igroup>`

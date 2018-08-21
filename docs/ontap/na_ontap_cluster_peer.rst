@@ -21,11 +21,11 @@ The below requirements are needed on the host that executes this module.
 Parameters
 ==========
 
-+-----------------------+---------------------+------------------------------------------+
++-------------------------+---------------------+------------------------------------------+
 |        Parameter        |   Choices/Defaults  |                 Comments                 |
 +-------------------------+---------------------+------------------------------------------+
-| state                   | Choices:            | Whether the specified aggregate should   |
-|                         |                     | exist or not.                            |
+| state                   | Choices:            | Whether the specified cluster peer       |
+|                         |                     | should exist or not.                     |
 |                         | * present (default) |                                          |
 |                         | * absent            |                                          |
 +-------------------------+---------------------+------------------------------------------+
