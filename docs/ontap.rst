@@ -11,6 +11,7 @@ ONTAP Modules
 * :doc:`na_ontap_cifs_acl <ontap/na_ontap_cifs_acl>`
 * :doc:`na_ontap_cifs_server <ontap/na_ontap_cifs_server>`
 * :doc:`na_ontap_cluster <ontap/na_ontap_cluster>`
+* :doc:`na_ontap_cluster_peer <ontap/na_ontap_cluster_peer>`
 * :doc:`na_ontap_cluster_ha <ontap/na_ontap_cluster_ha>`
 * :doc:`na_ontap_export_policy <ontap/na_ontap_export_policy>`
 * :doc:`na_ontap_export_policy_rule <ontap/na_ontap_export_policy_rule>`
