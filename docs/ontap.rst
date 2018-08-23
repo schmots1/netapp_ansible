@@ -18,6 +18,7 @@ ONTAP Modules
 * :doc:`na_ontap_dns <ontap/na_ontap_dns>`
 * :doc:`na_ontap_export_policy <ontap/na_ontap_export_policy>`
 * :doc:`na_ontap_export_policy_rule <ontap/na_ontap_export_policy_rule>`
+* :doc:`na_ontap_fcp <ontap/na_ontap_fcp>`
 * :doc:`na_ontap_igroup <ontap/na_ontap_igroup>`
 * :doc:`na_ontap_interface <ontap/na_ontap_interface>`
 * :doc:`na_ontap_iscsi <ontap/na_ontap_iscsi>`
