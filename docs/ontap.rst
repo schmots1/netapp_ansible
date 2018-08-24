@@ -36,6 +36,7 @@ ONTAP Modules
 * :doc:`na_ontap_ntp <ontap/na_ontap_ntp>`
 * :doc:`na_ontap_qtree <ontap/na_ontap_qtree>`
 * :doc:`na_ontap_service_processor_network <ontap/na_ontap_service_processor_network>`
+* :doc:`na_ontap_snapmirror <ontap/na_ontap_snapmirror>`
 * :doc:`na_ontap_snapshot <ontap/na_ontap_snapshot>`
 * :doc:`na_ontap_snmp <ontap/na_ontap_snmp>`
 * :doc:`na_ontap_svm <ontap/na_ontap_svm>`
