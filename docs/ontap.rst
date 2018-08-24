@@ -32,6 +32,7 @@ ONTAP Modules
 * :doc:`na_ontap_net_routes <ontap/na_ontap_net_routes>`
 * :doc:`na_ontap_net_vlan <ontap/na_ontap_net_vlan>`
 * :doc:`na_ontap_nfs <ontap/na_ontap_nfs>`
+* :doc:`na_ontap_node <ontap/na_ontap_node>`
 * :doc:`na_ontap_ntp <ontap/na_ontap_ntp>`
 * :doc:`na_ontap_qtree <ontap/na_ontap_qtree>`
 * :doc:`na_ontap_service_processor_network <ontap/na_ontap_service_processor_network>`
