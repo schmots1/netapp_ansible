@@ -47,3 +47,4 @@ ONTAP Modules
 * :doc:`na_ontap_user_role <ontap/na_ontap_user_role>`
 * :doc:`na_ontap_volume <ontap/na_ontap_volume>`
 * :doc:`na_ontap_volume_clone <ontap/na_ontap_volume_clone>`
+* :doc:`na_ontap_vserver_peer <ontap/na_ontap_vserver_peer>`
