@@ -33,6 +33,11 @@ Parameters
 +--------------------+---------------------+------------------------------------------+
 | https              | Default: false      | Enable and disable https                 |
 +--------------------+---------------------+------------------------------------------+
+| validate_certs     | Default: true       | Set to false in order to use self-signed |
+|                    |                     | certificates with https.  *Warning: this |
+|                    |                     | does open up the small possiblity of a   |
+|                    |                     | man-in-the-middle attack.                |
++--------------------+---------------------+------------------------------------------+
 | license_code       |                     | License code to be applied to the cluster|
 +--------------------+---------------------+------------------------------------------+
 | license_package    |                     | License package name of the license to be|

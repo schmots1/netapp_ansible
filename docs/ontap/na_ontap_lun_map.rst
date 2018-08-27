@@ -29,6 +29,11 @@ Parameters
 +------------------------+---------------------+------------------------------------------+
 | https                  | Default: false      | Enable and disable https                 |
 +------------------------+---------------------+------------------------------------------+
+| validate_certs         | Default: true       | Set to false in order to use self-signed |
+|                        |                     | certificates with https.  *Warning: this |
+|                        |                     | does open up the small possiblity of a   |
+|                        |                     | man-in-the-middle attack.                |
++------------------------+---------------------+------------------------------------------+
 | initiator_group_name   |                     | Initiator group to map to the given LUN  |
 +------------------------+---------------------+------------------------------------------+
 | lun_id                 |                     | LUN ID assigned for hte map.             |

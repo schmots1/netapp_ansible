@@ -29,6 +29,11 @@ Parameters
 +-----------------+---------------------+------------------------------------------+
 | https           | Default: false      | Enable and disable https                 |
 +-----------------+---------------------+------------------------------------------+
+| validate_certs  | Default: true       | Set to false in order to use self-signed |
+|                 |                     | certificates with https.  *Warning: this |
+|                 |                     | does open up the small possiblity of a   |
+|                 |                     | man-in-the-middle attack.                |
++-----------------+---------------------+------------------------------------------+
 | interface_name  |                     | Name of the vlan interface.  The name    |
 |                 |                     | must be of the format                    |
 |                 |                     | <parent-interface>-<vlanid>              |
