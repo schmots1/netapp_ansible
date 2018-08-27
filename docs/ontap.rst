@@ -41,6 +41,7 @@ ONTAP Modules
 * :doc:`na_ontap_snmp <ontap/na_ontap_snmp>`
 * :doc:`na_ontap_software_update <ontap/na_ontap_software_update>`
 * :doc:`na_ontap_svm <ontap/na_ontap_svm>`
+* :doc:`na_ontap_svm_options <ontap/na_ontap_svm_options>`
 * :doc:`na_ontap_ucadapter <ontap/na_ontap_ucadapter>`
 * :doc:`na_ontap_user <ontap/na_ontap_user>`
 * :doc:`na_ontap_user_role <ontap/na_ontap_user_role>`
