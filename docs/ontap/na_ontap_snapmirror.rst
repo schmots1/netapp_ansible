@@ -99,19 +99,12 @@ Examples:
 - name: Create SnapMirror
       na_ontap_snapmirror:
         state: present
-
         source_volume: test_src
-
         destination_volume: test_dest
-
         source_vserver: ansible_src
-
         destination_vserver: ansible_dest
-
         hostname: "{{ netapp_hostname }}"
-
         username: "{{ netapp_username }}"
-
         password: "{{ netapp_password }}"
 
     - name: Delete SnapMirror
