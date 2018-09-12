@@ -68,7 +68,7 @@ Parameters
 Notes
 
 The modules prefixed with na_elementsw are built to support the Element software platform.
-Examples:
+Examples::
 
     - name: Create Account
       na_elementsw_account:
