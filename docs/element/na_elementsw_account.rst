@@ -68,29 +68,29 @@ Parameters
 Notes
 
 The modules prefixed with na_elementsw are built to support the Element software platform.
-Examples::
+Examples:
 
-- name: Create Account
-  na_elementsw_account:
-    hostname: "{{ elementsw_hostname }}"
-    username: "{{ elementsw_username }}"
-    password: "{{ elementsw_password }}"
-    state: present
-    element_username: TenantA
+    - name: Create Account
+      na_elementsw_account:
+        hostname: "{{ elementsw_hostname }}"
+        username: "{{ elementsw_username }}"
+        password: "{{ elementsw_password }}"
+        state: present
+        element_username: TenantA
 
-- name: Modify Account
-  na_elementsw_account:
-    hostname: "{{ elementsw_hostname }}"
-    username: "{{ elementsw_username }}"
-    password: "{{ elementsw_password }}"
-    state: present
-    element_username: TenantA
-    new_element_username: TenantA-Renamed
+    - name: Modify Account
+      na_elementsw_account:
+        hostname: "{{ elementsw_hostname }}"
+        username: "{{ elementsw_username }}"
+        password: "{{ elementsw_password }}"
+        state: present
+        element_username: TenantA
+        new_element_username: TenantA-Renamed
 
-- name: Delete Account
-  na_elementsw_account:
-    hostname: "{{ elementsw_hostname }}"
-    username: "{{ elementsw_username }}"
-    password: "{{ elementsw_password }}"
-    state: absent
-    element_username: TenantA-Renamed
+    - name: Delete Account
+      na_elementsw_account:
+        hostname: "{{ elementsw_hostname }}"
+        username: "{{ elementsw_username }}"
+        password: "{{ elementsw_password }}"
+        state: absent
+        element_username: TenantA-Renamed
