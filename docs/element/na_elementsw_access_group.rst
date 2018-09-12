@@ -70,7 +70,7 @@ Notes
 The modules prefixed with na_elementsw are built to support the Element software platform.
 Examples::
 
-- name: Create Access Group
+   - name: Create Access Group
      na_elementsw_access_group:
        hostname: "{{ elementsw_hostname }}"
        username: "{{ elementsw_username }}"
