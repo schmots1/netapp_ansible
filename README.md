@@ -1,1 +1,1 @@
-# netapp_ansible
+For documentation please visit docs.ansible.com
